@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ocean {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 50px auto;
+    background: linear-gradient(to bottom, rgb(3, 189, 189), rgb(7, 74, 119));
+    overflow: hidden;
+}
+
+.lumiere {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+}
+
+
+.fond {
+    position: absolute;
+    left: -16px;
+    bottom: -24px;
+    width: 104%;
+}
+
+.roche {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 17%;
+}
+
+
+.algue {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 15%;
+}
+
+
+.poisson1,
+.poisson2 {
+    position: absolute;
+    width: 5%;
+}
+
+.poisson1 {
+    top: 30%;
+    left: 50%;
+}
+
+.poisson2 {
+    top: 32%;
+    left: 55%;
+}
+
+.ocean h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(100, 214, 214);
+    font-size: 50px;
+    font-weight: normal;
+    font-family: pacificoregular, sans-serif;
+}

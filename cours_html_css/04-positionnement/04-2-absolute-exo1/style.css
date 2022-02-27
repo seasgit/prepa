@@ -1,0 +1,19 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+
+.b1 {
+    background: red;
+}
+
+.b2 {
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    background: green;
+}
+
+.b3 {
+    background: blue;
+}

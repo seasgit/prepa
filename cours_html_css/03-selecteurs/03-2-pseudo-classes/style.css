@@ -1,0 +1,29 @@
+section {
+    display: flex;
+}
+
+/* tous les div seront ronds */
+
+section div {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+/* la section s1 */
+.s1 div {
+    background: red;
+}
+
+.s1 :nth-child(1) {
+    background-color: yellow;
+}
+
+/* la section s1 */
+.s2 div {
+    background: blue;
+}
+
+.s2 div:nth-of-type(3) {
+    background: pink;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jeu de couleur</title>
+</head>
+<body>
+    <!-- consigne
+        On a un tableau de 3 couleurs
+        On a 3 tirages aléatoires
+        Si on tombe sur 3 mêmes couleurs
+            gagné
+        sinon
+            perdu   
+    -->
+    <script>
+        // tableau
+        const col =  ['red', 'green', 'blue'];
+        // 3 tirages
+        let r1 =  Math.floor(Math.random()*col.length);
+        let r2 =  Math.floor(Math.random()*col.length);
+        let r3 =  Math.floor(Math.random()*col.length);
+        // afficher les couleurs
+        let out = col[r1] + ' - ' + col[r2] + ' - ' + col[r3]
+        console.log(out);
+        // evaluation du résultat
+        if(r1 == r2 && r2 == r3) {
+            console.log('GAGNE');
+        }else {
+            console.log('PERDU');
+        }
+    </script>
+</body>
+</html>

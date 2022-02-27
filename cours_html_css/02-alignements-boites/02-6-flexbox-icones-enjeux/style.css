@@ -1,0 +1,41 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  h3 {
+      font-size: 20px;
+      text-transform: uppercase;
+  }
+
+  p {
+      font-size: 18px;
+  }
+
+  .container {
+      width: 400px;
+      margin: 100px auto;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .container>* {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      display: flex;
+  }
+
+  .icon-box img {
+      margin: auto;
+      width: 65%;
+
+  }
+
+  .texte {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      font-family: sans-serif;
+  }

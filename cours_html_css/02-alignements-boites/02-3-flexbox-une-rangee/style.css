@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    /* display */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* box model */
+    width: 800px;
+    height: 150px;
+    margin: 50px auto 0 auto;
+    /*  décoratif */
+    background: #ddd;
+}
+
+
+div {
+    width: 160px;
+    height: 100px;
+    background: rgb(65, 160, 197);
+}

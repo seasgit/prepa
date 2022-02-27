@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conditions</title>
+</head>
+<body>
+    <script>
+        // tirage aléatoire des ventes
+        let vente_samsung = Math.floor(Math.random()*21);
+        let vente_apple = Math.floor(Math.random()*21);
+
+        if(vente_apple > vente_samsung) {
+            console.log(`Apple est en tête avec ${vente_apple} ventes`);
+        }else if(vente_samsung > vente_apple){
+            console.log(`Samsung est en tête avec ${vente_samsung} ventes`);
+        }else {
+            console.log(`Samsung et Apple au coude à coude avec ${vente_apple} ventes `);
+        }
+
+    </script>
+</body>
+</html>
+<!-- 
+   Récupérez les ventes de Apple et Samsung sur 1 minute
+   On établie une plage de vente de 0 à 20
+   Afficher dans la console :
+    1. qui a le plus vendu
+    2. une égalité entre les deux si c'est le cas
+ -->

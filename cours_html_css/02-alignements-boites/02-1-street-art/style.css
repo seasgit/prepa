@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* 
+    boîte principale 
+*/
+main {
+    width: 900px;
+    margin: 100px auto 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+/* style du h3 dans le header */
+header h3 {
+    font-size: 34px;
+    font-family: serif;
+    font-family: 'Sedgwick Ave', cursive;
+    letter-spacing: 3px;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+figure {
+    width: 28%;
+    box-shadow: 0 2px 18px #aaa;
+}
+
+figure div {
+    height: 340px;
+}
+
+figure div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+figcaption {
+    color: #645449;
+    text-align: center;
+}
+
+figcaption h4 {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+figcaption p {
+    font-size: 12px;
+}

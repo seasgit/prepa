@@ -1,0 +1,56 @@
+/*
+    Animation 5 images en 20s
+    20/5 => change toutes les 4s
+    Keyframes : 
+        -> 100% / 5 = 20%
+        -> délai de 4s pour une image
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 80px auto;
+    width: 500px;
+    height: 333px;
+    overflow: hidden;
+    position: relative;
+}
+
+.main img {
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: change 20s infinite linear;
+}
+
+@keyframes change {
+
+    0% { opacity: 0;}
+    5% { opacity: 1;}
+    18% {opacity: 1;}
+    22% { opacity: 0;}
+    100% {opacity: 0;}
+    
+}
+
+.main img:nth-of-type(2) {
+    animation-delay: 4s;
+}
+.main img:nth-of-type(3) {
+    animation-delay: 8s;
+}
+.main img:nth-of-type(4) {
+    animation-delay: 12s;
+}
+.main img:nth-of-type(5) {
+    animation-delay: 16s;
+}
+
+

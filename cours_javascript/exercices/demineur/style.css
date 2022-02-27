@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    width: 300px;
+    height: 300px;
+    border:5px solid rgb(206, 206, 206);
+}
+
+
+section div {
+    width: 31%;
+    height: 31%;
+    background: #c7c7c7;
+}

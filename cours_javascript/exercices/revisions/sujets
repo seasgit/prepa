@@ -1,0 +1,25 @@
+Sujet 1
+--------
+
+Un carré , un bouton plus, un bouton moins
+Le carré est animé en rotation à une vitesse donnée par les boutons
+Quand on clique sur le bouton plus on fait tourner le carré de +1deg
+Quand on clique sur le bouton moins on fait tourner le carré de -1deg
+
+Aide code
+   DOM :  addventListener, querySelector, carre.style.transform, setInterval, textContent
+   JS :  incrément, décrément, if
+
+
+
+Sujet 2
+---------
+Un tableau de 5 lettres 
+carré contenant la 1ère lettre
+un bouton next permet d'afficher la lettre suivante
+un bouton prev la lettre précédente.
+
+Aide code : 
+    DOM : addventListener, querySelector textContent
+    JS :  Array, incrément, décrément, if
+

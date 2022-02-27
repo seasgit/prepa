@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main {
+    width: 400px;
+}
+
+header {
+    height: 70px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+header p {
+    font-family: sans-serifcont;
+}
+
+header span {
+    padding: 8px 15px;
+    border-radius: 50px;
+    background: dodgerblue;
+    color: white;
+}
+
+footer {
+    position: relative;
+    height: 400px;
+    border: 1px solid black;
+}
+
+
+/* style d'éléments ajoutés avec JS */
+
+.rond {
+    position: absolute;
+    left: 0;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    background: rgb(147, 231, 131);
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+header div {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.temps { background: green; }
+.points { background: dodgerblue;}
+

@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 50px;
+}
+
+
+.s1 { background: yellow; }
+.s2 { background: pink; }
+.s3 { background: palegreen; }
+.s4 { background: cyan; }
+
+/* bouton pour affichage du menu en mobile */
+
+.bouton-croix {
+    /* positionnement */
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 5;
+    /* box model */
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid white;
+    /* décoratif */
+    background: orangered;
+    cursor: pointer;
+    /* display pour centrer + */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bouton-croix span {
+    display: block;
+    color: white;
+    font-size: 24px;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    /* display: flex;  placé dans la balise html*/
+    justify-content: center;
+    align-items: center;
+    background: rgb(63, 59, 59);
+}
+
+.menu { text-align: center;}
+.menu a {
+    display: block;
+    color: white;
+    font-size: 28px;
+    font-family: sans-serif;
+
+}
+
+
+@media (min-width:768px) {
+
+    .navbar {
+        height: 80px;
+    }
+
+    .menu a {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    .bouton-croix {
+        display: none;
+    }
+
+}
+

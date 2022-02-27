@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 400px;
+    height: 500px;
+    padding-top: 20px;
+    margin: 50px auto;
+    background: url(https://images.pexels.com/photos/4588052/pexels-photo-4588052.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    background-position: 0 100%;
+    transition: 0.4s;
+}
+
+p {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    opacity: 0;
+    transition: .5s;
+}
+
+div:hover {
+    box-shadow: inset -30px -50px 280px black;
+}
+
+div:hover p {
+    opacity: 1;
+    transition-delay: .2s;
+}

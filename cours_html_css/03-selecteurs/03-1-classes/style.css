@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.vert {
+    background-color: yellowgreen;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.panel {
+    display: flex;
+    width: 300px;
+    height: 80px;
+    border: 2px solid black;
+}
+
+.panel p {
+    margin: auto;
+    font-size: 28px;
+}

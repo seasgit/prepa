@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap');
+
+/* 
+    version 1  
+    le titre en position absolute => problème d'alignement sur 1 ligne
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    position: relative;
+    /* box model */
+    margin: 100px auto 0 auto;
+    width: 600px;
+    height: 300px;
+    /* decoratif */
+    background: green;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+}
+
+
+h1 {
+    /* positionné et au centre de la boîte */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Purple Purse', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+}

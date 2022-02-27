@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    margin: 100px auto 0 auto;
+    width: 200px;
+    height: 280px;
+    border: 5px solid rgb(197, 197, 197);
+}
+
+.menu {
+    position: absolute;
+    right: -30px;
+    padding: 10px;
+    background: rgb(235, 235, 235);
+    box-shadow: 0 8px 10px rgb(168, 168, 168);
+}
+
+.menu a {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-bottom: 10px;
+    background: #4e4e4e;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.menu a:hover {
+    background: rgb(206, 37, 37);
+}
+
+
+.animaux {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.animaux img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.animaux img:target {
+    z-index: 1;
+}

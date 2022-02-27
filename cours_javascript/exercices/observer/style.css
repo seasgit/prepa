@@ -1,0 +1,34 @@
+ body {
+     padding: 1rem 20rem;
+ }
+
+ article h3 {
+     font-size: 4rem;
+ }
+
+ article p {
+     line-height: 2;
+     font-size: 1.2rem;
+     font-family: sans-serif;
+     text-align: justify;
+
+ }
+
+ .show {
+     opacity: 1;
+ }
+
+ .hidden {
+     opacity: 0;
+ }
+
+ .der {
+     /* sort l'élément du flux  et ça marche pas avec Observer */
+     transform: translateX(-200%);
+
+ }
+
+ .der-show {
+     transform: translateX(0);
+     transition: 0.3s;
+ }

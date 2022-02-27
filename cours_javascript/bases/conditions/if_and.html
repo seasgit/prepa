@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conditions et operateurs logiques</title>
+</head>
+<body>
+    <script>
+        let score = Math.floor(Math.random()*21)
+        let msg =  "";
+        
+        if( score <= 5 ){
+            msg= score +" : Revoyez les bases";
+        }else if( score>=6 && score <=9) {
+            msg = score +" : EN progrès , accrochez vous"
+        }else if( score>=10 && score <=15) { 
+            msg= score +" : Un bon score !!"
+        }else {
+            msg= score +" : Un super score !!"
+        }
+
+        console.log(msg);
+
+    </script>
+</body>
+</html>

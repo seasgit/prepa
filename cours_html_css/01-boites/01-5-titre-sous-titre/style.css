@@ -1,0 +1,38 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* box model */
+    width: 600px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* decoratif */
+    background-image: url(../../data/images/planet/oceans-mers.jpg);
+    background-size: cover;
+
+}
+
+h1,
+h2 {
+    color: aliceblue;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    background: linear-gradient(to bottom right, #ffffff 13%, transparent 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}

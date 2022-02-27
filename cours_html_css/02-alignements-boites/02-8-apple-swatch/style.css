@@ -1,0 +1,79 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+body {
+    background: #ddd;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 900px;
+    height: 450px;
+    margin: 50px auto;
+    background: #fafafa;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.texte {
+    font-size: 30px;
+}
+
+figure {
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+
+figure img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    margin: auto;
+}
+
+.se {
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.acheter {
+    background: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.plus {
+    margin-left: 10px;
+    color: dodgerblue;
+}

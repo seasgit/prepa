@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 10rem 5rem;
+    transition: .3s;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+
+section:nth-of-type(odd){
+    background: palegreen;
+}
+
+
+section:nth-of-type(even) {
+    background: pink;
+}
+
+.hide {
+    transform: translateX(-4000px);
+}
+
+.show {
+    transform: translateX(0);
+}

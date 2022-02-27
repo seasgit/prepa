@@ -1,0 +1,16 @@
+.s1 {
+    position: relative;
+    margin: 100px auto 0;
+    width: 300px;
+    height: 150px;
+    background: #ccc;
+}
+
+.carre {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    width: 50px;
+    height: 50px;
+    background: yellow;
+}

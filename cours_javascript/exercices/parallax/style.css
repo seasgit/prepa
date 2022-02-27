@@ -1,0 +1,17 @@
+section {
+    display: flex;
+    height: 100vh;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 0 5rem;
+}
+
+
+div {
+    width: 20%;
+    height: 100px;
+}
+
+.b1 { background: blue;}
+.b2 { background: green;}
+.b3 { background: red;}

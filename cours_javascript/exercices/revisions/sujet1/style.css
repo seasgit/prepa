@@ -1,0 +1,33 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > * {
+    margin: 0 50px;
+}
+
+.carre {
+    width: 80px;
+    height: 80px;
+    background: #000;
+}
+
+.compteur {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 25px;
+}
+
+
+.fa {
+    font-size: 40px;
+    cursor: pointer;
+}

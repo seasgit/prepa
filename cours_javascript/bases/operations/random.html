@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tirage aléatoire</title>
+</head>
+<body>
+    
+    <script>
+        // tirage aléatoire normalisé donne une valeur entre 0 et 0.9999999...
+        let r1 =  Math.random()
+        console.log(r1);
+        // Récupérer une nombre dans une plage de valeur
+        let r2 =  Math.random() * 5 /* ici la réponse sera  entre 0 et 4.9999 */
+        console.log(r2);
+        // Arrondir au nombre supérieur
+        r2Sup =  Math.ceil(r2);
+        console.log(r2Sup);
+        // Arronfi inférieur
+        r2Inf =  Math.floor(r2);
+    </script>
+</body>
+</html>

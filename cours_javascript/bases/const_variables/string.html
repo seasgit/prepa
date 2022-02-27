@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chaines de caractères</title>
+</head>
+<body>
+
+
+    <script>
+        // délimiteur ici = simple quote
+        let ville = 'Toulouse';
+        // délimiteur guillement
+        let couleur =  "rose";
+        // concaténation
+        let phrase =  'La ville '+ ville + ' est appelée la ville ' + couleur;
+        // depuis es6 on peut utiliser les "template string"
+        let template = 
+        `<h3>Dicton</h3>
+        <p style='color:hotpink; font-size:20px'>
+            La ville ${ville} est appelée aussi la ville ${couleur}
+        </p>
+        `
+        // sortie dans le body du navigateur
+        document.body.innerHTML =  template
+
+
+
+    </script>
+    
+</body>
+</html>

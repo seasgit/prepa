@@ -1,0 +1,24 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carre {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border: 3px solid black;
+    margin: 0 70px;
+    font-size: 40px;
+}
+
+.fa {
+    font-size: 40px;
+    cursor: pointer;
+    color : grey
+}
