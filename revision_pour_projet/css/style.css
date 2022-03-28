@@ -1,10 +1,21 @@
 /* 
     Règles css générales 
  */
+
+ :root {
+    --bg-body : #efefef;
+    --text-parag: #555;
+    --text-titre: #444;
+ }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-body);
 }
 
 /* 
@@ -40,10 +51,12 @@ article {
 .about h3 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
+    color: var(--text-titre);
 }
 
 .about p {
     font-size: 1.1rem;
+    color: var(--text-parag);
 }
 
 
@@ -116,6 +129,23 @@ article {
     background: rgb(197, 196, 196);
 }
 
+
+.btn-switch {
+    width: 100px;
+    height: 47px;
+    background-image: url(../images/31902956.jpg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.day { 
+    background-position: 0 0;
+}
+
+.night {
+    background-position: -100px 0;
+}
+
 /* 
     Tablet
 */
@@ -148,7 +178,7 @@ article {
 @media (min-width:992px) {
 
     .header-page {
-        height: 100vh;
+        height: 50vh;
     }
 
     .about,
