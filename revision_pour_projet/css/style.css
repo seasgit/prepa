@@ -1,0 +1,187 @@
+/* 
+    Règles css générales 
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    MOBILE
+*/
+
+.header-page {
+
+    /* provisoire */
+    min-height: 400px;
+    background: rgb(197, 196, 196);
+}
+
+figure,
+article {
+    /* provisoire */
+    /* height: 400px; */
+}
+
+.about figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about article {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.1rem;
+}
+
+
+/* .f1 {
+    background: rgb(177, 161, 161);
+}
+
+.a1 {
+    background: rgb(194, 176, 176);
+}
+
+.f2 {
+    background: rgb(186, 204, 162);
+}
+
+.a2 {
+    background: rgb(168, 185, 145);
+}
+
+.f3 {
+    background: rgb(172, 212, 212);
+}
+
+.a3 {
+    background: rgb(151, 187, 187);
+} */
+
+.gallery figure {
+    /* provisoire */
+    /* height: 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+/* 
+.gf1 {
+    background: rgb(228, 168, 223);
+}
+
+.gf2 {
+    background: rgb(211, 156, 206);
+}
+
+.gf3 {
+    background: rgb(218, 169, 214);
+}
+
+.gf4 {
+    background: rgb(173, 131, 170);
+}
+
+.gf5 {
+    background: rgb(233, 163, 227);
+}
+
+.gf6 {
+    background: rgb(211, 169, 207);
+} */
+
+
+.footer-page {
+    /* provisoire */
+    min-height: 400px;
+    background: rgb(197, 196, 196);
+}
+
+/* 
+    Tablet
+*/
+
+@media (min-width:768px) {
+
+    .header-page {
+        height: 500px;
+    }
+
+    .about,
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gallery>*,
+    .about>* {
+        width: 50%;
+    }
+
+}
+
+
+
+/* 
+    Desktop
+*/
+
+@media (min-width:992px) {
+
+    .header-page {
+        height: 100vh;
+    }
+
+    .about,
+    .gallery {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .f1 {
+        order: 1;
+    }
+
+    .a1 {
+        order: 2;
+    }
+
+    .f2 {
+        order: 4;
+    }
+
+    .a2 {
+        order: 3;
+    }
+
+    .a3 {
+        order: 6;
+    }
+
+    .f3 {
+        order: 5;
+    }
+
+    .gallery>* {
+        width: 33.33%;
+    }
+}
