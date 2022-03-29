@@ -11,4 +11,4 @@ const zoneJeu =  document.querySelector('.zone-jeu')
    Déclaration des  Variables et constantes du jeu
 */
 let nbCases = 16
-let symboles = []
+let symboles = ['bath','music','umbrella','car','coffee','leaf','apple','plane']
