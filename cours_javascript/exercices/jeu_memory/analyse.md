@@ -1,5 +1,5 @@
 # Jeu du memory
-## Analyse de l'interface
+## 1. Analyse de l'interface
 ### Section principale de jeu
 Une section avec 8 ou 16 carrés pour 2 niveaux de jeu. 
 __nb__ : pour selectionner un niveau : La section et les carrés doivent être créés dynamiquement. 
@@ -23,3 +23,9 @@ Un carré contient deux symbole :
 -  prévoir les classes css pour ce qui est généré par JS
 ### Début du programme
 - déclarer les variables et constantes du jeu
+
+## 2. Construction du jeu
+## Mélanger les icones
+- On a un tableau de 8 icones
+- on a besoin de créer des copies du tableau d'icones mélangées
+

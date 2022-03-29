@@ -12,3 +12,22 @@ const zoneJeu =  document.querySelector('.zone-jeu')
 */
 let nbCases = 16
 let symboles = ['bath','music','umbrella','car','coffee','leaf','apple','plane']
+let tab2symboles =[] // contient 2 symboles à comparer
+let compteur_paires = 0 ;  // fini quand on arrive à 8
+let timerJeu; // setInterval 
+
+/*
+    Construction jeu
+*/
+let symboles_copy = symboles.slice()
+let symboles_melanges = [];
+
+// Tant que le tableau copy n'est pas vide
+while(symboles_copy.length > 0){
+    // Prendre un symbole au hasard, l'extraire du tableau et le donner à un autre
+    let r = Math.floor(Math.random()*symboles_copy.length)
+    // on extrait l'élément avec splice, et on récupère le string avec shift
+    let symb =  symboles_copy.splice(r,1).shift();
+    symboles_melanges.push(symb)
+}
+
