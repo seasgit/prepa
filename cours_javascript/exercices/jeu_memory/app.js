@@ -22,6 +22,11 @@ let timerJeu; // setInterval
 let symboles_copy = symboles.slice()
 let symboles_melanges = [];
 
+/*
+Ci-dessous : Travail autour des tableaux et des méthodes de manipulation
+https: //developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array
+*/
+
 // Tant que le tableau copy n'est pas vide
 while(symboles_copy.length > 0){
     // Prendre un symbole au hasard, l'extraire du tableau et le donner à un autre
