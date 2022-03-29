@@ -11,6 +11,8 @@ for(let i=0; i<lesRonds.length; i++){
 }
 // Ecouteur d'événement
 function clicRond(e){
+    // pour ne cliquer qu'une seule fois
+    this.removeEventListener('click', clicRond)
     compteur++;
     // e.target ou this représentent l'élement cliqué
     // console.log(e.target)
